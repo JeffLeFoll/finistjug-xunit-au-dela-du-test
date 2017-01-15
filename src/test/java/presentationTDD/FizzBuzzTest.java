@@ -13,6 +13,7 @@ import static fr.arpinum.cocoritest.Affirmations.*;
  * Created by Jean-François Le Foll on 05/11/2015.
  */
 public class FizzBuzzTest {
+
     private List<String> résultat;
 
     @Before
@@ -21,7 +22,6 @@ public class FizzBuzzTest {
 
         résultat = fizzBuzz.calculer();
     }
-
 
     @Test
     public void peutConstuireUneListeDe101Entiers(){
@@ -58,8 +58,6 @@ public class FizzBuzzTest {
 
         assertThat(résultat.get(15)).isEqualTo("fizzBuzz");
     }
-
-
 
 }
 
