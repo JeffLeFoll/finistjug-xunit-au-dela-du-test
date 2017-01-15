@@ -54,9 +54,9 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void peutCalculerFizzBuzz15(){
+    public void peutCalculerFizzBuzz45(){
 
-        assertThat(résultat.get(15)).isEqualTo("fizzBuzz");
+        assertThat(résultat.get(45)).isEqualTo("fizzBuzz");
     }
 
 }
