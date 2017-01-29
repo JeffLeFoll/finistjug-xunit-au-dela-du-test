@@ -11,13 +11,13 @@ import static org.assertj.core.api.Assertions.*;
 /**
  * Created by Jean-François Le Foll on 05/11/2015.
  */
-public class FizzBuzzEtape1Test {
+public class FizzBuzzTest {
 
     private List<String> résultat;
 
     @Before
     public void initFizzBuzz(){
-        FizzBuzzEtape1 fizzBuzz = new FizzBuzzEtape1();
+        FizzBuzz fizzBuzz = new FizzBuzz();
 
         résultat = fizzBuzz.calculer();
     }

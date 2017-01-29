@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by Jean-François Le Foll on 05/11/2015.
  */
-public class FizzBuzzEtape1 {
+public class FizzBuzz {
 
     public List<String> calculer() {
         List<String> résultat = Lists.newArrayList();
